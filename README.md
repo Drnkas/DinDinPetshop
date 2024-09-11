@@ -1,16 +1,70 @@
-# dindin_petshop
+# Dindin Petshop
 
-A new Flutter project.
+<p align="center">
+  <img alt="Dindin Petshop" src="assets/logo_.png" width="600px">
+</p>
 
-## Getting Started
+## 💡 Sobre o Projeto
 
-This project is a starting point for a Flutter application.
+O **Dindin Petshop** é um aplicativo para um petshop que permite aos usuários explorar produtos, adicionar itens ao carrinho e gerenciar suas compras. O projeto foi desenvolvido utilizando tecnologias modernas para autenticação e gerenciamento de estado, e, também com foco em UX/UI, .
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Demonstração
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Abaixo estão algumas telas do aplicativo:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p align="center">
+  <img src="assets/Screenshot_20240911_202350.png" width="250px">
+  <img src="assets/Screenshot_20240911_202803.png" width="250px">
+</p>
+
+<p align="center">
+  <img src="assets/Screenshot_20240911_202837.png" width="250px">
+  <img src="assets/Screenshot_20240911_202844.png" width="250px">
+</p>
+
+- **Imagem 1**: Tela de login.
+- **Imagem 2**: Tela inicial do petshop com a lista de produtos.
+- **Imagem 3**: Detalhes do produto.
+- **Imagem 4**: Tela do carrinho de compras.
+
+## 🚀 Funcionalidades
+
+- 🐕 **Autenticação com Google Firebase**: Cadastro e login de usuários utilizando autenticação do Google.
+- 📦 **Gerenciamento de Produtos**: Exibição de produtos com detalhes e preços.
+- 🛒 **Carrinho de Compras**: Adição e remoção de produtos do carrinho, com visualização dos itens selecionados.
+- 🗂️ **Banco de Dados Realtime**: Armazenamento e sincronização de dados de produtos e usuários em tempo real.
+
+## 🛠️ Tecnologias Utilizadas
+
+- [Flutter](https://flutter.dev/) (Framework principal)
+- [Dart](https://dart.dev/) (Linguagem de programação)
+- [Dio](https://pub.dev/packages/dio) (Consumo de API)
+- [GetX](https://pub.dev/packages/get) (Gerenciamento de estado)
+- [Firebase Authentication](https://firebase.google.com/docs/auth) (Autenticação)
+- [Firebase Realtime Database](https://firebase.google.com/docs/database) (Banco de dados em tempo real)
+- [Signals](https://pub.dev/packages/signals) (Gerenciamento de eventos)
+
+## 🛠️ Como Rodar o Projeto
+
+Para rodar o projeto localmente, siga os seguintes passos:
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/dindin-petshop.git
+
+2. Acesse a pasta do projeto:
+   ```bash
+     cd dindin-petshop
+
+3. Configure o Firebase:
+
+Siga as instruções no documento oficial do Firebase para configurar o Firebase Authentication e o Firebase Realtime Database.
+Adicione o arquivo google-services.json (para Android) ou GoogleService-Info.plist (para iOS) ao seu projeto Flutter.
+
+4. Instale as dependências:
+   ```bash
+    flutter pub get
+
+5. Execute o aplicativo:
+   ```bash
+    flutter run
